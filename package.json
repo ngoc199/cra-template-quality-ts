@@ -1,0 +1,26 @@
+{
+  "name": "cra-template-quality-ts",
+  "version": "1.0.0",
+  "description": "The TypeScript template for Create React App with quality control system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "eslint",
+    "prettier",
+    "husky"
+  ],
+  "contributors": [
+    {
+      "name": "Ngoc Nguyen",
+      "email": "ngoc@ngocoder.com",
+      "url": "https://ngocoder.com"
+    }
+  ],
+  "license": "MIT"
+}

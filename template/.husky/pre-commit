@@ -1,0 +1,26 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo 'Styling, testing and building your project before committing'
+
+yarn run check-format || (
+    echo 'Formatting errors found, please fix them before committing by running `yarn run format`'
+    exit 1
+)
+
+yarn run check-lint || (
+    echo 'Linting errors found, please fix them before committing'
+    exit 1
+)
+
+yarn run check-type || (
+    echo 'Type errors found, please fix them before committing'
+    exit 1
+)
+
+yarn run build || (
+    echo 'Build errors found, please fix them before committing'
+    exit 1
+)
+
+echo 'All tests passed, ready to commit'
