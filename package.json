@@ -1,6 +1,6 @@
 {
   "name": "cra-template-quality-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The TypeScript template for Create React App with quality control system.",
   "repository": {
     "type": "git",
