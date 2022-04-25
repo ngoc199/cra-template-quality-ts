@@ -10,9 +10,9 @@ To use this template, add `--template quality-ts` when creating a new app.
 For example:
 
 ```
-npx create-react-app my-app --template husky-ts
+npx create-react-app my-app --template quality-ts
 
 # or
 
-yarn create react-app my-app --template husky-ts
+yarn create react-app my-app --template quality-ts
 ```
